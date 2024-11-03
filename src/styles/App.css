@@ -1,12 +1,38 @@
-h1 {
-    color: #27aedb;
+.App {
     text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+  }
+  
+  .loading, .no-tours {
+    margin-top: 50px;
+  }
+  
+  .tour {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .tour img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .tour-info {
+    margin-top: 10px;
+  }
+  
+  .tour-price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    margin-top: 10px;
+    color: red;
+    cursor: pointer;
+  }
+  
